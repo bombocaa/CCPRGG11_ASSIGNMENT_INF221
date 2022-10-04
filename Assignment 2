@@ -1,15 +1,14 @@
 public class Assignment2{
     public static void main(String[] args) throws Exception {
 
-         // for looping
-         for(int i = 5; i != 0; i-- ){
-             if (i==5){
+         // for loop
+         
+         for( int firstnameCount = 5;firstnameCount != 0; firstnameCount-- ){
                 System.out.println("Jasper");
-                break;
-
              } 
-         }
+        
         //do while
+
          int surnameCount = 5;
 
          do {
@@ -21,21 +20,10 @@ public class Assignment2{
         //while
          int nicknameCount = 5;
 
-         while (nicknameCount !=1){
+         while (nicknameCount !=0){
             nicknameCount--;
-
-            if (nicknameCount==1){
-                System.out.println("jaja");
-                continue;
-
-                
+            System.out.println("jaja");
+            
             }
-         }
-
-
-
-
-
-
     }
 }
